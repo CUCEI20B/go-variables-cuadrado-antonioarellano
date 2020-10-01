@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
-func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+func main() {
+	var l int
+	fmt.Scanln(&l)
+	area := l * l
+	fmt.Println(area)
 }
